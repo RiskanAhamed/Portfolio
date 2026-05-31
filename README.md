@@ -2,7 +2,7 @@
 
 Personal developer portfolio for **Riskan Ahamed**, Junior Full Stack Developer from Akkaraipattu, Sri Lanka.
 
-🌐 **Live site:** https://riskanahamed.github.io/My_Portfolio/
+🌐 **Live site:** https://riskanahamed.github.io/Portfolio/
 
 ## Tech Used
 - HTML5, CSS3, Vanilla JavaScript
