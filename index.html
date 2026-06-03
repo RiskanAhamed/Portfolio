@@ -18,15 +18,15 @@ body{background:var(--bg);color:var(--text);font-family:'Syne',sans-serif;overfl
 body::before{content:'';position:fixed;inset:0;background-image:linear-gradient(rgba(0,245,255,.025) 1px,transparent 1px),linear-gradient(90deg,rgba(0,245,255,.025) 1px,transparent 1px);background-size:60px 60px;pointer-events:none;z-index:0}
 
 /* ── NAV ── */
-nav{position:fixed;top:0;left:0;right:0;z-index:200;display:flex;justify-content:space-between;align-items:center;height:70px;padding:0 4rem;background:rgba(2,4,8,.95);backdrop-filter:blur(24px);border-bottom:1px solid var(--border)}
+nav{position:fixed;top:0;left:0;right:0;z-index:200;display:flex;justify-content:space-between;align-items:center;height:72px;padding:0 3.5rem;background:rgba(2,4,8,.97);backdrop-filter:blur(30px);border-bottom:1px solid var(--border);box-shadow:0 2px 40px rgba(0,245,255,0.04)}
 .nav-logo{font-family:'Orbitron',monospace;font-size:1.1rem;font-weight:700;color:var(--cyan);letter-spacing:.2em;text-decoration:none}
 .nav-links{display:flex;gap:0;list-style:none}
-.nav-links a{font-family:'JetBrains Mono',monospace;font-size:.7rem;color:var(--muted);text-decoration:none;letter-spacing:.12em;text-transform:uppercase;padding:.5rem 1rem;transition:color .3s;position:relative}
+.nav-links a{font-family:'JetBrains Mono',monospace;font-size:.68rem;color:var(--muted);text-decoration:none;letter-spacing:.1em;text-transform:uppercase;padding:.55rem 1.1rem;transition:all .3s;position:relative;white-space:nowrap}
 .nav-links a::after{content:'';position:absolute;bottom:0;left:1rem;right:1rem;height:1px;background:var(--cyan);transform:scaleX(0);transition:transform .3s}
 .nav-links a:hover,.nav-links a.active{color:var(--cyan)}
 .nav-links a:hover::after,.nav-links a.active::after{transform:scaleX(1)}
 .nav-right{display:flex;align-items:center;gap:.6rem}
-.nav-icon{width:32px;height:32px;border:1px solid var(--border);border-radius:4px;display:flex;align-items:center;justify-content:center;color:var(--muted);text-decoration:none;font-size:.78rem;font-weight:700;transition:all .3s;font-family:'JetBrains Mono',monospace}
+.nav-icon{width:34px;height:34px;border:1px solid var(--border);border-radius:4px;display:flex;align-items:center;justify-content:center;color:var(--muted);text-decoration:none;font-size:.72rem;font-weight:700;transition:all .3s;font-family:'JetBrains Mono',monospace;letter-spacing:.05em}
 .nav-icon:hover{border-color:var(--cyan);color:var(--cyan);background:rgba(0,245,255,.06);transform:translateY(-2px)}
 .nav-cta{font-family:'Orbitron',monospace;font-size:.62rem;font-weight:700;letter-spacing:.12em;padding:.45rem 1.1rem;background:linear-gradient(135deg,var(--cyan),var(--blue));color:#000;border-radius:2px;text-decoration:none;transition:all .3s;white-space:nowrap}
 .nav-cta:hover{box-shadow:0 0 20px rgba(0,245,255,.35);transform:translateY(-2px)}
@@ -248,7 +248,7 @@ footer p{font-family:'JetBrains Mono',monospace;font-size:.63rem;color:var(--mut
     <li><a href="#contact">Contact</a></li>
   </ul>
   <div class="nav-right">
-    <a href="https://github.com/Riskan-12" target="_blank" class="nav-icon" title="GitHub">GH</a>
+    <a href="https://github.com/RiskanAhamed" target="_blank" class="nav-icon" title="GitHub">GH</a>
     <a href="https://www.linkedin.com/in/riskan-ahamed" target="_blank" class="nav-icon" title="LinkedIn">in</a>
     <a href="https://wa.me/94758742926" target="_blank" class="nav-icon" title="WhatsApp">WA</a>
     <a href="#contact" class="nav-cta">Hire Me</a>
@@ -266,7 +266,7 @@ footer p{font-family:'JetBrains Mono',monospace;font-size:.63rem;color:var(--mut
   <a href="#certificates" class="mob-link">Certificates</a>
   <a href="#contact" class="mob-link">Contact</a>
   <div class="mob-socials">
-    <a href="https://github.com/Riskan-12" target="_blank">GH</a>
+    <a href="https://github.com/RiskanAhamed" target="_blank">GH</a>
     <a href="https://www.linkedin.com/in/riskan-ahamed" target="_blank">in</a>
     <a href="https://www.facebook.com/share/18Yg5SNTf1/" target="_blank">FB</a>
     <a href="https://www.instagram.com/riskan_ahmd" target="_blank">IG</a>
@@ -290,7 +290,7 @@ footer p{font-family:'JetBrains Mono',monospace;font-size:.63rem;color:var(--mut
       <a href="mailto:riskanahamed.work@mail.com" class="btn-resume">📄 Request CV</a>
     </div>
     <div class="social-strip">
-      <a href="https://github.com/Riskan-12" target="_blank" class="s-btn">⌥ GitHub</a>
+      <a href="https://github.com/RiskanAhamed" target="_blank" class="s-btn">⌥ GitHub</a>
       <a href="https://www.linkedin.com/in/riskan-ahamed" target="_blank" class="s-btn">💼 LinkedIn</a>
       <a href="https://www.facebook.com/share/18Yg5SNTf1/" target="_blank" class="s-btn">f Facebook</a>
       <a href="https://www.instagram.com/riskan_ahmd?igsh=bTQ0dnRncTlya3B2" target="_blank" class="s-btn">◈ Instagram</a>
@@ -389,7 +389,7 @@ footer p{font-family:'JetBrains Mono',monospace;font-size:.63rem;color:var(--mut
       <div class="proj-title">E-Commerce Web App</div>
       <p class="proj-desc">Full-stack online store with product listings, user authentication, shopping cart, and order management. Built end-to-end from UI to database.</p>
       <div class="proj-stack"><span class="stack-tag">React</span><span class="stack-tag">Node.js</span><span class="stack-tag">Express</span><span class="stack-tag">MongoDB</span></div>
-      <a href="https://github.com/Riskan-12" target="_blank" class="proj-link">⌥ GitHub →</a>
+      <a href="https://github.com/RiskanAhamed" target="_blank" class="proj-link">⌥ GitHub →</a>
     </div>
     <div class="proj-card fade-up">
       <div class="proj-num">PROJECT // 002</div>
@@ -397,7 +397,7 @@ footer p{font-family:'JetBrains Mono',monospace;font-size:.63rem;color:var(--mut
       <div class="proj-title">Task Manager App</div>
       <p class="proj-desc">Productivity application for managing tasks with user roles, priority levels, real-time updates, and a responsive dashboard with full CRUD operations.</p>
       <div class="proj-stack"><span class="stack-tag">React</span><span class="stack-tag">PHP</span><span class="stack-tag">MySQL</span><span class="stack-tag">Bootstrap</span></div>
-      <a href="https://github.com/Riskan-12" target="_blank" class="proj-link">⌥ GitHub →</a>
+      <a href="https://github.com/RiskanAhamed" target="_blank" class="proj-link">⌥ GitHub →</a>
     </div>
     <div class="proj-card fade-up">
       <div class="proj-num">PROJECT // 003</div>
@@ -405,7 +405,7 @@ footer p{font-family:'JetBrains Mono',monospace;font-size:.63rem;color:var(--mut
       <div class="proj-title">RESTful API Backend</div>
       <p class="proj-desc">Scalable REST API with JWT authentication, role-based access, CRUD endpoints, rate limiting, and full documentation. Containerized with Docker.</p>
       <div class="proj-stack"><span class="stack-tag">Node.js</span><span class="stack-tag">Express</span><span class="stack-tag">MongoDB</span><span class="stack-tag">JWT</span><span class="stack-tag">Docker</span></div>
-      <a href="https://github.com/Riskan-12" target="_blank" class="proj-link">⌥ GitHub →</a>
+      <a href="https://github.com/RiskanAhamed" target="_blank" class="proj-link">⌥ GitHub →</a>
     </div>
     <div class="proj-card fade-up">
       <div class="proj-num">PROJECT // 004</div>
@@ -413,7 +413,7 @@ footer p{font-family:'JetBrains Mono',monospace;font-size:.63rem;color:var(--mut
       <div class="proj-title">Developer Portfolio</div>
       <p class="proj-desc">This portfolio — fully custom-coded, responsive developer portfolio with dark futuristic design, smooth animations, embedded certificates, and optimised performance. Zero templates.</p>
       <div class="proj-stack"><span class="stack-tag">HTML5</span><span class="stack-tag">CSS3</span><span class="stack-tag">JavaScript</span></div>
-      <a href="https://github.com/Riskan-12" target="_blank" class="proj-link">⌥ GitHub →</a>
+      <a href="https://github.com/RiskanAhamed" target="_blank" class="proj-link">⌥ GitHub →</a>
     </div>
   </div>
 </section>
@@ -473,7 +473,7 @@ footer p{font-family:'JetBrains Mono',monospace;font-size:.63rem;color:var(--mut
         <a href="mailto:riskanahamed.work@mail.com" class="c-item"><div class="c-icon">✉</div><div><div class="c-label">Email</div><div class="c-val">riskanahamed.work@mail.com</div></div></a>
         <a href="tel:+94758742926" class="c-item"><div class="c-icon">📱</div><div><div class="c-label">Phone / WhatsApp</div><div class="c-val">+94 75 874 2926</div></div></a>
         <a href="https://www.linkedin.com/in/riskan-ahamed" target="_blank" class="c-item"><div class="c-icon" style="color:#0a66c2;font-weight:700;font-size:.75rem;font-family:JetBrains Mono,monospace">in</div><div><div class="c-label">LinkedIn</div><div class="c-val">linkedin.com/in/riskan-ahamed</div></div></a>
-        <a href="https://github.com/Riskan-12" target="_blank" class="c-item"><div class="c-icon">⌥</div><div><div class="c-label">GitHub</div><div class="c-val">github.com/Riskan-12</div></div></a>
+        <a href="https://github.com/RiskanAhamed" target="_blank" class="c-item"><div class="c-icon">⌥</div><div><div class="c-label">GitHub</div><div class="c-val">github.com/RiskanAhamed</div></div></a>
         <div class="c-item" style="cursor:default"><div class="c-icon">📍</div><div><div class="c-label">Location</div><div class="c-val">Akkaraipattu, Ampara, Sri Lanka 🇱🇰</div></div></div>
       </div>
       <div class="soc-grid">
@@ -481,7 +481,7 @@ footer p{font-family:'JetBrains Mono',monospace;font-size:.63rem;color:var(--mut
         <a href="https://www.instagram.com/riskan_ahmd?igsh=bTQ0dnRncTlya3B2" target="_blank" class="soc-card ig"><div class="soc-icon">📸</div><div class="soc-label">Instagram</div></a>
         <a href="https://wa.me/94758742926" target="_blank" class="soc-card wa"><div class="soc-icon">💬</div><div class="soc-label">WhatsApp</div></a>
         <a href="https://t.me/+94758742926" target="_blank" class="soc-card tg"><div class="soc-icon">✈️</div><div class="soc-label">Telegram</div></a>
-        <a href="https://github.com/Riskan-12" target="_blank" class="soc-card gh"><div class="soc-icon">⌥</div><div class="soc-label">GitHub</div></a>
+        <a href="https://github.com/RiskanAhamed" target="_blank" class="soc-card gh"><div class="soc-icon">⌥</div><div class="soc-label">GitHub</div></a>
         <a href="https://www.linkedin.com/in/riskan-ahamed" target="_blank" class="soc-card li"><div class="soc-icon">💼</div><div class="soc-label">LinkedIn</div></a>
       </div>
     </div>
@@ -505,7 +505,7 @@ footer p{font-family:'JetBrains Mono',monospace;font-size:.63rem;color:var(--mut
       <a href="#skills">Skills</a>
       <a href="#projects">Projects</a>
       <a href="#certificates">Certificates</a>
-      <a href="https://github.com/Riskan-12" target="_blank">GitHub</a>
+      <a href="https://github.com/RiskanAhamed" target="_blank">GitHub</a>
       <a href="https://www.linkedin.com/in/riskan-ahamed" target="_blank">LinkedIn</a>
       <a href="mailto:riskanahamed.work@mail.com">Email</a>
     </div>
@@ -585,9 +585,9 @@ window.addEventListener('scroll', () => {
 const roleEl = document.getElementById('heroRole');
 const roles  = [
   'Junior Software Developer',
-  'Full Stack Developer',
   'React & Node.js Developer',
-  'Web Application Developer'
+  'Web Application Developer',
+  'Junior Full Stack Developer'
 ];
 let ri = 0, ci = 0, deleting = false;
 function typeRole() {
