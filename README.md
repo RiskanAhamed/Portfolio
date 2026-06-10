@@ -48,20 +48,13 @@ Portfolio/
 
 ## 📥 Installation & Usage
 
-### 1️⃣ Clone the repository
-```bash
-git clone https://github.com/RiskanAhamed/Portfolio.git
-## 🔗 Connect with Me
-- 💼 LinkedIn: [www.linkedin.com/in/riskan-ahamed](https://www.linkedin.com/in/riskan-ahamed)
-- 🌐 Facebook: [https://www.facebook.com/share/18Yg55NT64/](https://www.facebook.com/share/18Yg55NT64/)
-- 📧 Email: riskanahamed.work@gmail.com
+🔗 Connect with Me
+LinkedIn: https://www.linkedin.com/in/riskan-ahamed 
 
----
+Facebook: https://www.facebook.com/share/18Yg55NT64/
 
-If you want, I can also create:
+Email: riskanahamed.work@gmail.com
 
-🔥 A **PRO GitHub Profile README**  
-🔥 A **dark/light theme version**  
-🔥 A **more advanced portfolio README**  
+Location: Ampara, Sri Lanka
 
-Just tell me what style you want.
+GitHub: https://github.com/RiskanAhamed
