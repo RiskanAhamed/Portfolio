@@ -3,10 +3,7 @@
 A personal portfolio website built using **HTML, CSS, and JavaScript** to showcase my skills, projects, and contact information.
 
 ## 🚀 Live Demo
-
-Visit the website here:  
-👉 [Click to view Portfolio](https://riskanahamed.github.io/Portfolio)
-
+👉https://riskanahamed.github.io/Portfolio
 
 
 ## 📌 Features
